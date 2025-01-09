@@ -1,8 +1,10 @@
 {
-  "name": "kreisrechnen",
+  "name": "triangle-game",
+  "homepage": "https://IremPeker.github.io/triangle-game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "^5.0.1",
