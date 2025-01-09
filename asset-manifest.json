@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/triangle-game/static/css/main.1da7663d.css",
+    "main.js": "/triangle-game/static/js/main.340a4fa6.js",
+    "static/js/488.5ada5e25.chunk.js": "/triangle-game/static/js/488.5ada5e25.chunk.js",
+    "index.html": "/triangle-game/index.html",
+    "main.1da7663d.css.map": "/triangle-game/static/css/main.1da7663d.css.map",
+    "main.340a4fa6.js.map": "/triangle-game/static/js/main.340a4fa6.js.map",
+    "488.5ada5e25.chunk.js.map": "/triangle-game/static/js/488.5ada5e25.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1da7663d.css",
+    "static/js/main.340a4fa6.js"
+  ]
+}
