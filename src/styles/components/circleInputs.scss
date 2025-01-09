@@ -1,0 +1,20 @@
+.circleInputs {
+  &__inputWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+  }
+
+  &__inputWrapper__circle {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    outline: none;
+    margin: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+}

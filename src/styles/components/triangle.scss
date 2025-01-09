@@ -1,0 +1,53 @@
+.gameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+
+  &__description {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+
+  &__availableNums {
+    margin-bottom: 25px;
+  }
+
+  &__newGameButton {
+    width: 150px;
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px #999;
+    transition: all 0.1s ease-in-out;
+    &:active {
+      box-shadow: 0 2px #666;
+      transform: translateY(2px);
+    }
+  }
+
+  &__middle {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+    &__left {
+      display: flex;
+      flex-direction: column;
+      margin-right: 30px;
+      &__sums {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
