@@ -59,8 +59,8 @@ const TriangleGame: React.FC = () => {
     <div className="gameWrapper">
       <h1>Triangle Game</h1>
       <p className="gameWrapper__description">
-        Adjust the numbers so that each side's sum equals 73! <br /> Ony use the
-        Available Numbers given below!
+        Adjust the numbers so that each side's sum equals to 73! <br /> Ony use
+        the Available Numbers given below!
       </p>
       <div className="gameWrapper__availableNums">
         <h3>Available Numbers:</h3>
@@ -78,7 +78,9 @@ const TriangleGame: React.FC = () => {
           ))}
         </div>
       </div>
-
+      {sums.every((sum) => sum === 73) && (
+        <h2>🎉 Congratulations! You did it! 🎉</h2>
+      )}
       <div className="gameWrapper__middle">
         <div className="gameWrapper__middle__left">
           <div className="gameWrapper__middle__left__sums">
@@ -92,9 +94,6 @@ const TriangleGame: React.FC = () => {
             <p className="gameWrapper__middle__left__sums__sum">
               Base (Bottom): {sums[2]}
             </p>
-            {sums.every((sum) => sum === 73) && (
-              <h2>🎉 Congratulations! You did it! 🎉</h2>
-            )}
           </div>
         </div>
         <div className="gameWrapper__middle__right">
